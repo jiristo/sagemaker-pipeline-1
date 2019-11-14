@@ -103,7 +103,7 @@ Resources:
               commands:
                 - echo "Installing wget and boto3"
                 - pip3 install wget
-                - pip3 install boto
+                - pip3 install boto3
                 - printenv
             build:
               commands:
