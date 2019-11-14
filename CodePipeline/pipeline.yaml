@@ -105,7 +105,6 @@ Resources:
                 - pip3 install wget
                 - pip3 install boto3
                 - printenv
-                
             build:
               commands:
                 - echo "Running training.py"
