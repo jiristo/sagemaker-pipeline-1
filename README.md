@@ -74,6 +74,8 @@ You can launch the same stack using the AWS CLI. Here's an example:
 
 `aws cloudformation create-stack --stack-name YOURSTACKNAME --template-body file:///home/ec2-user/environment/sagemaker-pipeline/CodePipeline/pipeline.yaml --parameters ParameterKey=Email,ParameterValue="youremailaddress@example.com" ParameterKey=GitHubToken,ParameterValue="YOURGITHUBTOKEN12345ab1234234" --capabilities CAPABILITY_NAMED_IAM`
 
+`aws cloudformation create-stack --stack-name jiristalligent --template-body /Users/jiristodulka/GoogleDrive/GitHub/stelligent_sagemaker/CodePipeline/pipeline.yaml --parameters ParameterKey=Email,ParameterValue="jiri.stodu@gmail.com" ParameterKey=GitHubToken,ParameterValue="37648bc090ce760fb542892504409e1fc70fcf02" --capabilities CAPABILITY_NAMED_IAM`
+
 
 <!-- [![Launch CFN stack](https://s3.amazonaws.com/stelligent-training-public/public/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#cstack=sn~DromedaryStack|turl~https://s3.amazonaws.com/stelligent-training-public/master/dromedary-master.json) -->
 
